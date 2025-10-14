@@ -151,7 +151,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DVQdAIpatK4mYI48eg1U-48" value="«interface»&lt;br&gt;&lt;b&gt;TransferState&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1717" y="71" width="186" height="82" as="geometry" />
+          <mxGeometry x="1780" y="71" width="186" height="82" as="geometry" />
         </mxCell>
         <mxCell id="DVQdAIpatK4mYI48eg1U-49" value="+ issueReceipt(): List&amp;lt;string&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DVQdAIpatK4mYI48eg1U-48">
           <mxGeometry y="30" width="186" height="26" as="geometry" />
@@ -250,7 +250,7 @@
             <mxPoint x="1560" y="200" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1570" y="230" />
-              <mxPoint x="1810" y="230" />
+              <mxPoint x="1880" y="230" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -259,8 +259,8 @@
             <mxPoint x="1710" y="357" as="sourcePoint" />
             <mxPoint x="2130" y="220" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1810" y="320" />
-              <mxPoint x="1810" y="320" />
+              <mxPoint x="1810" y="230" />
+              <mxPoint x="1880" y="230" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -270,7 +270,7 @@
             <mxPoint x="2410" y="210" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1990" y="230" />
-              <mxPoint x="1810" y="230" />
+              <mxPoint x="1880" y="230" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -280,7 +280,7 @@
             <mxPoint x="2430" y="190" as="targetPoint" />
             <Array as="points">
               <mxPoint x="2200" y="230" />
-              <mxPoint x="1810" y="230" />
+              <mxPoint x="1880" y="230" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -290,7 +290,7 @@
             <mxPoint x="2490" y="190" as="targetPoint" />
             <Array as="points">
               <mxPoint x="2420" y="230" />
-              <mxPoint x="1810" y="230" />
+              <mxPoint x="1880" y="230" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -315,7 +315,7 @@
             <mxPoint x="1830" y="230" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1370" y="230" />
-              <mxPoint x="1810" y="230" />
+              <mxPoint x="1880" y="230" />
             </Array>
           </mxGeometry>
         </mxCell>
