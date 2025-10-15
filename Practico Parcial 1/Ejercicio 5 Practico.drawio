@@ -39,7 +39,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DVQdAIpatK4mYI48eg1U-10" value="Transference" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="940" y="17" width="260" height="268" as="geometry" />
+          <mxGeometry x="940" y="17" width="260" height="320" as="geometry" />
         </mxCell>
         <mxCell id="DVQdAIpatK4mYI48eg1U-57" value="- state: TrasnferState" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DVQdAIpatK4mYI48eg1U-10">
           <mxGeometry y="26" width="260" height="26" as="geometry" />
@@ -59,17 +59,23 @@
         <mxCell id="DVQdAIpatK4mYI48eg1U-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="DVQdAIpatK4mYI48eg1U-10">
           <mxGeometry y="156" width="260" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="DVQdAIpatK4mYI48eg1U-13" value="-&amp;nbsp; changeState(newState: TransferState): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DVQdAIpatK4mYI48eg1U-10">
+        <mxCell id="DVQdAIpatK4mYI48eg1U-13" value="+ changeState(newState: TransferState): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DVQdAIpatK4mYI48eg1U-10">
           <mxGeometry y="164" width="260" height="26" as="geometry" />
         </mxCell>
         <mxCell id="DVQdAIpatK4mYI48eg1U-110" value="+ checkDailyLimit(): bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DVQdAIpatK4mYI48eg1U-10">
           <mxGeometry y="190" width="260" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="DVQdAIpatK4mYI48eg1U-58" value="+ issueReceipt(): List&amp;lt;string&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DVQdAIpatK4mYI48eg1U-10">
+        <mxCell id="DVQdAIpatK4mYI48eg1U-112" value="+ getSender(): string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DVQdAIpatK4mYI48eg1U-10">
           <mxGeometry y="216" width="260" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="DVQdAIpatK4mYI48eg1U-111" value="+ getSenderAndRecipent(): Pair&amp;lt;string, string&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DVQdAIpatK4mYI48eg1U-10">
+        <mxCell id="DVQdAIpatK4mYI48eg1U-113" value="+ getRecipient(): string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DVQdAIpatK4mYI48eg1U-10">
           <mxGeometry y="242" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DVQdAIpatK4mYI48eg1U-58" value="+ issueReceipt(): List&amp;lt;string&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DVQdAIpatK4mYI48eg1U-10">
+          <mxGeometry y="268" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DVQdAIpatK4mYI48eg1U-111" value="+ getSenderAndRecipent(): Pair&amp;lt;string, string&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DVQdAIpatK4mYI48eg1U-10">
+          <mxGeometry y="294" width="260" height="26" as="geometry" />
         </mxCell>
         <mxCell id="DVQdAIpatK4mYI48eg1U-14" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DVQdAIpatK4mYI48eg1U-10" target="DVQdAIpatK4mYI48eg1U-0">
           <mxGeometry width="160" relative="1" as="geometry">
