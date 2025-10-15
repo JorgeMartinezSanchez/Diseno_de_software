@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.7">
   <diagram name="Página-1" id="P7xy8hMgqYlEwGpon1AA">
-    <mxGraphModel dx="1810" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2864" dy="1110" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -201,7 +201,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bTFR5IWdd1CasoOftH89-82" value="TicketMemento" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-480" y="155" width="220" height="138" as="geometry" />
+          <mxGeometry x="-170" y="430" width="220" height="138" as="geometry" />
         </mxCell>
         <mxCell id="bTFR5IWdd1CasoOftH89-86" value="+ ticket: Ticket&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="bTFR5IWdd1CasoOftH89-82">
           <mxGeometry y="26" width="220" height="26" as="geometry" />
@@ -219,7 +219,7 @@
           <mxGeometry y="112" width="220" height="26" as="geometry" />
         </mxCell>
         <mxCell id="bTFR5IWdd1CasoOftH89-91" value="TicketCaretaker" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-760" y="181" width="220" height="86" as="geometry" />
+          <mxGeometry x="-170" y="640" width="220" height="86" as="geometry" />
         </mxCell>
         <mxCell id="bTFR5IWdd1CasoOftH89-92" value="+ Memento: List&amp;lt;TicketMemeto&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="bTFR5IWdd1CasoOftH89-91">
           <mxGeometry y="26" width="220" height="26" as="geometry" />
@@ -234,6 +234,12 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-290" y="370" as="sourcePoint" />
             <mxPoint x="-130" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bTFR5IWdd1CasoOftH89-109" value="" style="endArrow=diamondThin;endFill=0;endSize=39;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="bTFR5IWdd1CasoOftH89-91" target="bTFR5IWdd1CasoOftH89-82">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-60" y="640" as="sourcePoint" />
+            <mxPoint x="-60" y="742" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
