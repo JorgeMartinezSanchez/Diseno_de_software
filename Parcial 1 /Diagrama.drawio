@@ -5,19 +5,19 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Ggr1qJGjnw0FNQQYenNW-1" value="«interface»&lt;br&gt;&lt;b&gt;StateButaca&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="500" y="170" width="200" height="108" as="geometry" />
+          <mxGeometry x="490" y="170" width="230" height="108" as="geometry" />
         </mxCell>
         <mxCell id="Ggr1qJGjnw0FNQQYenNW-2" value="+ showState(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Ggr1qJGjnw0FNQQYenNW-1" vertex="1">
-          <mxGeometry y="30" width="200" height="26" as="geometry" />
+          <mxGeometry y="30" width="230" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Ggr1qJGjnw0FNQQYenNW-3" value="+ selectButaca(context: Butaca): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Ggr1qJGjnw0FNQQYenNW-1" vertex="1">
-          <mxGeometry y="56" width="200" height="26" as="geometry" />
+          <mxGeometry y="56" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Ggr1qJGjnw0FNQQYenNW-4" value="+ reprogram(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Ggr1qJGjnw0FNQQYenNW-1" vertex="1">
-          <mxGeometry y="82" width="200" height="26" as="geometry" />
+        <mxCell id="Ggr1qJGjnw0FNQQYenNW-4" value="+ reprogram(context: Butaca): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Ggr1qJGjnw0FNQQYenNW-1" vertex="1">
+          <mxGeometry y="82" width="230" height="26" as="geometry" />
         </mxCell>
         <mxCell id="bTFR5IWdd1CasoOftH89-1" value="&lt;i&gt;StateBase&lt;/i&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="360" width="240" height="138" as="geometry" />
+          <mxGeometry x="480" y="319" width="240" height="190" as="geometry" />
         </mxCell>
         <mxCell id="bTFR5IWdd1CasoOftH89-2" value="+ context: Butaca" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="bTFR5IWdd1CasoOftH89-1">
           <mxGeometry y="26" width="240" height="26" as="geometry" />
@@ -28,14 +28,20 @@
         <mxCell id="bTFR5IWdd1CasoOftH89-4" value="+ showState(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="bTFR5IWdd1CasoOftH89-1">
           <mxGeometry y="60" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="bTFR5IWdd1CasoOftH89-10" value="+ selectButaca(context: Butaca): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="bTFR5IWdd1CasoOftH89-1">
+        <mxCell id="bTFR5IWdd1CasoOftH89-117" value="+ selectButaca(context: Butaca): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="bTFR5IWdd1CasoOftH89-1">
           <mxGeometry y="86" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="bTFR5IWdd1CasoOftH89-11" value="+ reprogram(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="bTFR5IWdd1CasoOftH89-1">
+        <mxCell id="bTFR5IWdd1CasoOftH89-10" value="+ blockButaca(context: Butaca): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="bTFR5IWdd1CasoOftH89-1">
           <mxGeometry y="112" width="240" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="bTFR5IWdd1CasoOftH89-118" value="+ emmitButaca(context: Butaca): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="bTFR5IWdd1CasoOftH89-1">
+          <mxGeometry y="138" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bTFR5IWdd1CasoOftH89-11" value="+ reprogramButaca(context: Butaca): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="bTFR5IWdd1CasoOftH89-1">
+          <mxGeometry y="164" width="240" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="bTFR5IWdd1CasoOftH89-6" value="Butaca" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="174" y="155" width="240" height="138" as="geometry" />
+          <mxGeometry x="174" y="155" width="240" height="164" as="geometry" />
         </mxCell>
         <mxCell id="bTFR5IWdd1CasoOftH89-7" value="- state: StateBase" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="bTFR5IWdd1CasoOftH89-6">
           <mxGeometry y="26" width="240" height="26" as="geometry" />
@@ -49,8 +55,11 @@
         <mxCell id="bTFR5IWdd1CasoOftH89-50" value="+ select(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="bTFR5IWdd1CasoOftH89-6">
           <mxGeometry y="86" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="bTFR5IWdd1CasoOftH89-51" value="+ reprogram(location: newLocation): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="bTFR5IWdd1CasoOftH89-6">
+        <mxCell id="bTFR5IWdd1CasoOftH89-116" value="+ reprogram(location: newLocation): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="bTFR5IWdd1CasoOftH89-6">
           <mxGeometry y="112" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bTFR5IWdd1CasoOftH89-51" value="# changeState(context: Butaca): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="bTFR5IWdd1CasoOftH89-6">
+          <mxGeometry y="138" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="bTFR5IWdd1CasoOftH89-12" value="" style="endArrow=block;dashed=1;endFill=0;endSize=17;html=1;rounded=0;" edge="1" parent="1" source="bTFR5IWdd1CasoOftH89-1" target="Ggr1qJGjnw0FNQQYenNW-1">
           <mxGeometry width="160" relative="1" as="geometry">
